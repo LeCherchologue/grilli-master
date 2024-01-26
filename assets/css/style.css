@@ -173,6 +173,7 @@ address { font-style: normal; }
 html {
   font-size: 10px;
   scroll-behavior: smooth;
+  overflow: auto;
 }
 
 body {
@@ -182,13 +183,13 @@ body {
   font-size: var(--fontSize-body-4);
   font-weight: var(--weight-regular);
   line-height: var(--lineHeight-5);
-  overflow: hidden;
+  overflow-y: scroll;
   height: 300vh;
 }
 
-body.loaded { overflow: overlay; }
+body.loaded { overflow: auto; }
 
-body.nav-active { overflow: hidden; }
+body.nav-active { overflow: auto; }
 
 ::-webkit-scrollbar { width: 5px; }
 
@@ -926,6 +927,13 @@ body.nav-active { overflow: hidden; }
   transition-delay: 0;
   z-index: -1;
   will-change: transform;
+}
+.mybutton3{
+
+
+  color: white;
+  width: 45%;
+  display: inline-block;
 }
 
 .service-card:is(:hover, :focus-within) .has-before::before {
