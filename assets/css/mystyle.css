@@ -1,0 +1,58 @@
+body{
+
+	 background-color:#171717;
+
+}
+
+h1{
+
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+}
+
+label{
+
+	padding-left: 35%;
+	width: 60px;
+	display: inline-block;
+	color: white;
+}
+
+.myform{
+
+	background-color: #242424;
+	margin-top: 150px;
+	margin-left:350px ;
+	margin-right:350px;
+	padding-bottom:100px ;
+}
+.mybutton{
+
+	margin-left: 178px;
+	width: 328px;
+	padding-bottom: 15px;
+	padding-top:15px ;
+	margin-top: 45px;
+	background-color: #FFE5B4;
+    font-weight: 600;
+    text-align: center;
+}
+
+input{
+
+	background-color: #666666;
+	border-style: none;
+
+}
+input[type=text]:focus{
+  outline: 2px solid #FFE5B4;     /* oranges! yey */
+}
+p{
+	color:white;
+	padding-left: 36%;
+
+}
+.mynumber{
+	color: #FFE5B4;
+}
