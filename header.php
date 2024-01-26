@@ -36,6 +36,27 @@
   <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
   <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
   <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+  <style>
+    
+    .mybutton3{
+
+
+  color: black;
+  margin-left: 500px;
+  margin-bottom: 40px;
+  fontFamily:  sans-serif;
+  background-color: #FFE5B4;
+}
+.mybutton3:hover{
+
+  background-color: #242424;
+  color: #FFE5B4;
+
+}
+
+
+
+  </style>
 
 </head>
 
@@ -210,6 +231,4 @@
 
     </div>
   </header>
-
-
 

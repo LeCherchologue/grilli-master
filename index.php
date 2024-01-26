@@ -1,6 +1,6 @@
-<?php include 'includes/header.php' ?>
 
-
+<?php include 'header.php'?>
+  
   <main>
     <article>
 
@@ -167,10 +167,13 @@
                   </h3>
 
                   <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+                 
 
                 </div>
-
-              </div>
+                      
+                  
+                </div>
+               
             </li>
 
             <li>
@@ -776,6 +779,7 @@
           <p class="section-subtitle label-2 text-center">Recent Updates</p>
 
           <h2 class="section-title headline-1 text-center">Upcoming Event</h2>
+          <button class="mybutton3" onclick="window.location.href = 'form.html';"><h2 class="mytitle">Register Online</h2></button>
 
           <ul class="grid-list">
 
@@ -854,7 +858,10 @@
       </section>
 
     </article>
-  </main>
+</main>
 
 
-<?php include 'includes/footer.php' ?>
+
+<?php include 'footer.php' ?>
+
+

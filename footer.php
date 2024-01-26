@@ -1,10 +1,4 @@
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer class="footer section has-bg-image text-center"
+<footer class="footer section has-bg-image text-center"
     style="background-image: url('./assets/images/footer-bg.jpg')">
     <div class="container">
 
@@ -119,9 +113,6 @@
   </footer>
 
 
-
-
-
   <!-- 
     - #BACK TO TOP
   -->
@@ -148,3 +139,4 @@
 </body>
 
 </html>
+
